@@ -1,0 +1,28 @@
+# Generated identity files (contain fake identity state — regenerated at runtime)
+configs/.identity_state.json
+configs/browser_profile/spoof.js
+configs/browser_profile/user.js
+
+# Runtime / temp files
+*.pid
+/tmp/ghostbox*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Tor data (generated at runtime)
+configs/tor/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
